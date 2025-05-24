@@ -17,7 +17,6 @@ on:
       - sdk-release/**
       - feature/**
 
-
 jobs:
   build:
     name: Build
@@ -127,6 +126,7 @@ jobs:
           npm whoami
           VERSION=$(node -p "require('./package.json').version" )
           # Only publish stable versions to the latest tag
+          
           if [[ "$VERSION" =~ ^[^-]+$ ]]; then
             NPM_TAG="latest"
           else
