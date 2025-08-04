@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "koa": "^2.14.1",
+    "koa": "^3.0.1",
     "stripe": "^11.9.1",
     "koa-bodyparser": "^4.3.0"
   },
