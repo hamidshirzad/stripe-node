@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "@types/node": ">=8.1.0",
-    "qs": "^6.11.0"
+    "qs": "^6.13.1"
   },
   "license": "MIT",
   "scripts": {
